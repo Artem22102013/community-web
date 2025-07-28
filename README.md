@@ -11,11 +11,13 @@
 *Franken UI import*:
 `<script src="/public/javascript/ui/franken.js" type="module"></script>`
 
-Functions right now:
+Functions:
 
-- [ ] Main page
-- [ ] Wiki
-- [x] Authentication
-  - [x] Basic Auth
-  - [x] Discord Auth
-- [ ] Admin roles
+**Main page**
+Login page (button)
+Links to bigstone development projetcs
+
+App page
+
+
+
