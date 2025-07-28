@@ -1,23 +1,39 @@
-# Welcome to the bigstone community web!
+# Welcome to the Bigstone Community Web
 
-### We like people to contribute stuff
+## Local Setup
 
-**Local start up**:
-`wrangler pages dev public`
+### 1. Initialize Local Database *(one-time)*
 
-**Local DB set up (only run once)**:
-`wrangler d1 execute community-web --local --file=sql/local.sql`
+```bash
+wrangler d1 execute community-web --local --file=sql/local.sql
+```
 
-*Franken UI import*:
-`<script src="/public/javascript/ui/franken.js" type="module"></script>`
+### 2. Start Local Development Server
 
-Functions:
+```bash
+wrangler pages dev public
+```
 
-**Main page**
-Login page (button)
-Links to bigstone development projetcs
+---
 
-App page
+## Development
+
+### 🧩 Franken UI Import
+
+Add this script to your HTML to use the Franken UI:
+
+```html
+<script src="/public/javascript/ui/franken.js" type="module"></script>
+```
 
 
+---
 
+## 📂 Project Functions
+
+- [ ] **Main Page**
+  - [ ] Login button  
+  - [ ] Links to Bigstone development projects
+
+- **App Page**
+  - Application UI and logic
